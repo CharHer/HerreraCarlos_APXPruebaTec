@@ -18,22 +18,28 @@ En este documento se registran los datos que pueden ser relevantes durante el de
 ## Resultados
 Se adjuntan imagenes de prueba de los resultados finales:
 
-Las instrucciones SQL utilizadas para la creación y manipulación de las BDD en el desarrollo del proyecto.
+1. Las instrucciones SQL utilizadas para la creación y manipulación de las BDD en el desarrollo del proyecto.
+   
 ![Las instrucciones SQL](SQL_DBeaver.png)
 
-Así queda construida la tabla en la BDD.
+3. Así queda construida la tabla en la BDD.
+   
 ![Estructura de la BDD](EstucturaBDD.png))
 
-Al insertar un NUIP que ya está registrado, se devuelve la información del registro.
+5. Al insertar un NUIP que ya está registrado, se devuelve la información del registro.
+   
 ![Prueba en Postman](SELECT_Postman.png))
 
-Los datos que ya estaban regstrados y que fueron llamados en Postman.
+7. Los datos que ya estaban regstrados y que fueron llamados en Postman.
+   
 ![Prueba en DBeaver](SLECT_BDD_DBeaver.png))
 
-Al insertar un nuevo NUIP, se crea un nuevo registro.
+9. Al insertar un nuevo NUIP, se crea un nuevo registro.
+    
 ![Consumo del servicio al finalizar](INSERT_Postman.png))
 
-Los datos del nuevo registro son llamados en Postman.
+11. Los datos del nuevo registro son llamados en Postman.
+    
 ![Consumo del servicio al finalizar](INSERT_BDD_DBeaver.png))
 
 
