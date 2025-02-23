@@ -57,7 +57,7 @@ public DtoOut map(DtoOut dtoOut, Map<String, Object> in) {
 	}
 ```
 
-Mapea los datos de entrada, en caso de enontrar un registro con un NUIP. trae la información para mostrarla; en caso contrario, se atrapa la excepción al devolver el objeto vacío y lo llena con los datos de entrada mapeados, para finalmente devolverlos en un objeto de salida.  
+Mapea los datos de entrada, en caso de enontrar un registro con un NUIP, trae la información para mostrarla; en caso contrario, se atrapa la excepción al devolver el objeto vacío y lo llena con los datos de entrada mapeados, para finalmente devolverlos en un objeto de salida.  
 ```
 public DtoOut execute(DtoIn dtoIn) {
 		DtoOut dtoOut = new DtoOut();
