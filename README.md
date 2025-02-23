@@ -26,7 +26,15 @@ Se adjuntan imagenes de prueba de los resultados finales:
    
 ![Estructura de la BDD](EstucturaBDD.png))
 
-5. Al insertar un NUIP que ya está registrado, se devuelve la información del registro.
+4. Al insertar un nuevo NUIP, se crea un nuevo registro.
+    
+![Consumo del servicio al finalizar](INSERT_Postman.png))
+
+5. Los datos del nuevo registro son llamados en Postman.
+    
+![Consumo del servicio al finalizar](INSERT_BDD_DBeaver.png))
+
+6. Al insertar un NUIP que ya está registrado, se devuelve la información del registro.
    
 ![Prueba en Postman](SELECT_Postman.png))
 
@@ -34,13 +42,7 @@ Se adjuntan imagenes de prueba de los resultados finales:
    
 ![Prueba en DBeaver](SLECT_BDD_DBeaver.png))
 
-9. Al insertar un nuevo NUIP, se crea un nuevo registro.
-    
-![Consumo del servicio al finalizar](INSERT_Postman.png))
 
-11. Los datos del nuevo registro son llamados en Postman.
-    
-![Consumo del servicio al finalizar](INSERT_BDD_DBeaver.png))
 
 
 ## Código
